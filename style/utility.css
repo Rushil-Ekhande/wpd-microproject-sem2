@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Track */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+    background: rgb(255, 255, 255);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 123, 0); /* Color of the scrollbar handle */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 123, 0);/* Color of the scrollbar handle on hover */
+  }
+
+.location{
+  display:flex;
+  flex-direction: row;
+  padding: 50px;
+  gap: 40px;
+  background: linear-gradient(to right, rgb(255, 166, 0) 20%, rgb(255, 123, 0) 80%);
+  border-top-left-radius: 150px;
+}
+
+.location h1{
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+.location p{
+  font-size: 1.3rem;
+}
+.location #companyName{
+  font-weight: bold;
+  margin: 15px 0px;
+  color:rgb(0, 0, 0);
+}
+.location #companyinfo{
+  line-height: 40px;
+}
+
+.location #companyAdd{
+  margin-bottom:10px;
+  font-weight: 600;
+}
+nav{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 12vh;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  position: fixed;
+  width: 100vw;
+}
+nav .left{
+  display: flex;
+  justify-content: center;
+  width: 15vw;
+  font-size: 25px;
+  font-weight: bold;
+}
+nav .right{
+  display: flex;
+  justify-content: space-evenly;
+  width: 40vw;
+}
+nav .right a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+nav .right a:hover{
+  color: rgb(255, 187, 0);
+  font-weight:bolder;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #202020;
+  color: #fff;
+  height:10vh;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}

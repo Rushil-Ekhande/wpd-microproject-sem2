@@ -1,0 +1,43 @@
+main{
+    margin-bottom: 50px;
+}
+.about_main{
+    background-image: url('../home.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-top: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    font-weight: bold;
+}
+.about_us{
+    padding: 20px;
+    height: 50vh;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.about_us h2{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.about_us p{
+    line-height: 2rem;
+    font-weight: bold;
+    font-size: 18x;
+    text-align: center;
+}
+.about_us .line{
+    padding: 2px;
+    background-color: rgb(255, 187, 0);
+    width: 10vw;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
